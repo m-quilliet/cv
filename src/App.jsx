@@ -1,14 +1,14 @@
 import './App.css';
 import {Custnavbar} from "./components/Custnav/Custnavbar.jsx";
-import { HashRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router} from 'react-router-dom';
 // import {Header} from './components/Head/Header';
 // import Me from './components/About/Aboutme';
 // import Services from './components/Service/Services';
 // import Tool from './components/Tools/Tool';
 
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle';
 
 
 
