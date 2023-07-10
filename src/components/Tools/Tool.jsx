@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Tool() {
+export const Tool = () => { 
   return (
     <div>Tool</div>
   )
