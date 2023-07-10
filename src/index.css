@@ -5,9 +5,7 @@
 body {
   margin: 2rem;
   display: flex;
-  place-items: center;
-  justify-content: center;
-  min-width: 320px;
+  align-items: center;
   min-height: 100vh;
 }
 
