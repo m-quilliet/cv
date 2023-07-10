@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 import canvas from "../../assets/images/canvas.jpeg"
 // import communication from "../../assets/images/communication.png"
-// import creativite from "../../assets/images/creativite.png"
+import creativite from "../../assets/images/creativite.png"
 import rouleau from "../../assets/images/rouleau.png"
 import cat from "../../assets/images/cat.png"
 import { Fade } from "react-awesome-reveal"
@@ -32,14 +32,12 @@ const Me = () => {
               Mon objectif est de devenir une professionnelle complète pour m'épanouir dans le développement et l'intégration front-end.
               </span>
               <h3>Intérets</h3>
-                
-
             </Fade>
 
           <Col className='d-flex flex-row mt-3'>
             <Fade direction='down'>
-              {/* <img src={communication} height="65" alt="" className="communication"/>
-              <img src={creativite} height="65" alt="" className="creativite"/>*/}
+              {/* <img src={communication} height="65" alt="" className="communication"/>*/}
+              <img src={creativite} height="65" alt="" className="creativite"/>
               <img src={rouleau} height="65" alt="" className="rouleau"/> 
               <img src={cat} height="65" alt="" className="cat"/>
             </Fade> 
