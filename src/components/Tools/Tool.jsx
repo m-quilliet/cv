@@ -9,7 +9,7 @@ import {DiScrum, DiVisualstudio} from 'react-icons/di'
 import { Fade } from "react-awesome-reveal"
 // import "./tool.css"
 
-const Tool = () => {
+export const Tool = () => { 
   return (
     
     <Container className='new d-flex min-vh-100 flex-column justify-content-center align-items-center'>
