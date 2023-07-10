@@ -10,7 +10,7 @@ export const Header = () => {
   return (
     <Fade direction="left">
       <Container id="Home" className="home min-vh-100">
-        <Row >
+        <Row className="ml-2" >
           <Col className="catch-phrase m-4 p-4">
             <h1>
               Hi , I am Maibelline <br /> <span>Développeuse Front-end | Webdesigner</span>

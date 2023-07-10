@@ -14,12 +14,12 @@ color: #31525b;
 }
 @media only screen and (max-width: 1024px) {
 .home {
-    gap: 6rem;
+    gap: 5rem;
 }
 }
 @media only screen and (max-width: 900px) {
 .home {
-    gap: 1rem;
+    gap: 2rem;
 }
 }
 @media only screen and (max-width: 760px) {
