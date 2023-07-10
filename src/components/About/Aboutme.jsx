@@ -11,7 +11,7 @@ import '../About/aboutme.css'
 const Me = () => {
   return (
     <Fade direction='right'>
-      <Container className="d-flex flex-wrap justify-content-center align-items-center vh-100">
+      <Container className="d-flex flex-direction-row flex-wrap vh-100">
         <Row className="" >
           <Col className=''>
             <img src={canvas} alt="" className="img"/>
@@ -23,18 +23,19 @@ const Me = () => {
           <Fade direction='down'>
               <h1 className='maib fw-bolder mb-4'>Maibelline QUILLIET</h1>
               <h3>Qui suis-je ?</h3>
-              <span className='lorem m-4 px-4'>Développeuse web de formation, je me suis ensuite former en autodidacte sur React.js et Symfony.
+              <p className='lorem m-4 px-4'>Développeuse web de formation, je me suis ensuite former en autodidacte sur React.js et Symfony.
               <br/>
               C'est en explorant de nombreuses librairies UI Javascript que j'ai pris conscience de mon appétence pour le Webdesign .
-              <br/> Passionnée par l'Ui Design, je veux me former sur les outils de la suite Adobe pour étoffer mes compétences créatives
+              <br/> Passionnée par l'Ui Design, je veux me former sur les outils de la suite Adobe <br/>pour étoffer mes compétences créatives
+              <br/>
               et pouvoir réaliser des éléments graphiques complexes.
               <br/> 
               Mon objectif est de devenir une professionnelle complète pour m'épanouir dans le développement et l'intégration front-end.
-              </span>
+              </p>
               <h3>Intérets</h3>
             </Fade>
 
-          <Col className='d-flex flex-row mt-3'>
+          <Col className='d-flex flex-direction-row mt-3'>
             <Fade direction='down'>
               <img src={communication} height="65" alt="" className="communication"/>
               <img src={creativite} height="65" alt="" className="creativite"/>
