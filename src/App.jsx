@@ -1,10 +1,10 @@
 import './App.css';
 import {Custnavbar} from "./components/Custnav/Custnavbar.jsx";
 import { HashRouter as Router, Routes, Route} from 'react-router-dom';
-import Header from './components/Head/Header.jsx';
+import {Header} from './components/Head/Header.jsx';
 import Me from './components/About/Aboutme.jsx';
-import Services from './components/Service/Services.jsx';
-import Tool from './components/Tools/Tool.jsx';
+import {Services} from './components/Service/Services.jsx';
+import {Tool} from './components/Tools/Tool.jsx';
 
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
