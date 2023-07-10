@@ -1,4 +1,4 @@
-/* nav {
+nav {
     background: linear-gradient(239deg, rgb(49, 74, 91) 0%, rgb(76, 164, 160) 46%, rgb(116, 217, 246) 100%) transparent;
     width: max-content;
     display: block;
@@ -20,7 +20,7 @@ padding: 0.9rem;
 border-radius: 50%;
 display: flex;
 font-size: 1.5rem;
-} */
+}
 
 
 
