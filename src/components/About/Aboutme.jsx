@@ -1,10 +1,10 @@
 import React from 'react'
 import { Row, Col, Container } from 'react-bootstrap'
 import canvas from "../../assets/images/canvas.jpeg"
-import communication from "../../assets/images/communication.png"
-import creativite from "../../assets/images/creativite.png"
-import rouleau from "../../assets/images/rouleau.png"
-import cat from "../../assets/images/cat.png"
+// import communication from "../../assets/images/communication.png"
+// import creativite from "../../assets/images/creativite.png"
+// import rouleau from "../../assets/images/rouleau.png"
+// import cat from "../../assets/images/cat.png"
 import { Fade } from "react-awesome-reveal"
 // import '../About/aboutme.css'
 
@@ -37,12 +37,12 @@ const Me = () => {
             </Fade>
 
           <Col className='d-flex flex-row mt-3'>
-          <Fade direction='down'>
+          {/* <Fade direction='down'>
               <img src={communication} height="65" alt="" className="communication"/>
               <img src={creativite} height="65" alt="" className="creativite"/>
               <img src={rouleau} height="65" alt="" className="rouleau"/>
               <img src={cat} height="65" alt="" className="cat"/>
-          </Fade>
+          </Fade> */}
             </Col>
 
           </Col>
