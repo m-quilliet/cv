@@ -13,9 +13,9 @@ import poke from '../../assets/images/poke.jpeg'
 // import h4 from '../../assets/images/h4.png'
 // import h2 from '../../assets/images/h2.png'
 // import h3 from '../../assets/images/h3.png'
-import p1 from '../../assets/images/p1.png'
-import p2 from '../../assets/images/p2.png'
-import p3 from '../../assets/images/p3.png'
+// import p1 from '../../assets/images/p1.png'
+// import p2 from '../../assets/images/p2.png'
+// import p3 from '../../assets/images/p3.png'
 // import c1 from '../../assets/images/c1.png'
 // import c2 from '../../assets/images/c2.png'
 // import c3 from '../../assets/images/c3.png'
@@ -23,33 +23,34 @@ import p3 from '../../assets/images/p3.png'
 // import jane from '../../assets/images/jane.jpeg'
 // import clinique from '../../assets/images/clinique.jpeg'
 // import memory from '../../assets/images/memory.jpeg'
-import "./services.css"
+import "../Service/service.css"
+// import "../Custnav/custnavbar.css"
 
 
 const Services = () => {
   // const [value, setValue] = useState([1, 3]);
   // const handleChange = (val) => setValue(val);
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const [show, setShow] = useState(false);
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
-  const [show1, setShow1] = useState(false);
-  const handleClose1 = () => setShow1(false);
-  const handleShow1 = () => setShow1(true);
+  // const [show1, setShow1] = useState(false);
+  // const handleClose1 = () => setShow1(false);
+  // const handleShow1 = () => setShow1(true);
 
-  const [show2, setShow2] = useState(false);
-  const handleClose2 = () => setShow2(false);
-  const handleShow2 = () => setShow2(true);
+  // const [show2, setShow2] = useState(false);
+  // const handleClose2 = () => setShow2(false);
+  // const handleShow2 = () => setShow2(true);
 
-  const [show3, setShow3] = useState(false);
-  const handleClose3 = () => setShow3(false);
-  const handleShow3 = () => setShow3(true);
+  // const [show3, setShow3] = useState(false);
+  // const handleClose3 = () => setShow3(false);
+  // const handleShow3 = () => setShow3(true);
 
-  const [index, setIndex] = useState(0);
+  // const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
+  // const handleSelect = (selectedIndex, e) => {
+  //   setIndex(selectedIndex);
+  // };
 
   return (
    
@@ -68,7 +69,7 @@ const Services = () => {
                 <h3>Poke'Mom</h3>
               </Col>
             </Row>
-            <Row>
+            {/* <Row>
               <Col>
                 <Button className='github' variant="primary" onClick={handleShow3}>Voir +</Button>
                   <Modal size="lg" show={show3} onHide={handleClose3}>
@@ -90,18 +91,18 @@ const Services = () => {
                               alt="Second slide"
                             />
                           </Carousel.Item>
-                          <Carousel.Item>
+                          {/* <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p3}
                               alt="Third slide"
-                            />
-                          </Carousel.Item>
-                        </Carousel>
+                            /> */}
+                          {/* </Carousel.Item> */}
+                        {/* </Carousel>
                     </Modal.Body>
                   </Modal>
               </Col>
-            </Row>
+            </Row> */} 
           </Col>
         </Row>
      
