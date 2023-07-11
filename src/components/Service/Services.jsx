@@ -26,7 +26,7 @@ import poke from '../../assets/images/poke.jpeg'
 // import "../Custnav/custnavbar.css"
 
 
-const Services = () => {
+export const Header = () => { 
   // const [value, setValue] = useState([1, 3]);
   // const handleChange = (val) => setValue(val);
   // const [show, setShow] = useState(false);
