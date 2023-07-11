@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Row, Col, Container,Badge, Button, Modal, Carousel} from 'react-bootstrap'
 // import { Fade } from "react-awesome-reveal"
 // import pins from '../../assets/images/pins.jpeg'
@@ -26,7 +26,7 @@ import poke from '../../assets/images/poke.jpeg'
 // import "../Custnav/custnavbar.css"
 
 
-export const Header = () => { 
+export const Services = () => { 
   // const [value, setValue] = useState([1, 3]);
   // const handleChange = (val) => setValue(val);
   // const [show, setShow] = useState(false);
