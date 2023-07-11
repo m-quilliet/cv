@@ -23,7 +23,6 @@ import poke from '../../assets/images/poke.jpeg'
 // import jane from '../../assets/images/jane.jpeg'
 // import clinique from '../../assets/images/clinique.jpeg'
 // import memory from '../../assets/images/memory.jpeg'
-import "../Service/service.css"
 // import "../Custnav/custnavbar.css"
 
 
