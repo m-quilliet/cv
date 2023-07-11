@@ -1,25 +1,65 @@
-nav {
-    background: linear-gradient(239deg, rgb(49, 74, 91) 0%, rgb(76, 164, 160) 46%, rgb(116, 217, 246) 100%) transparent;
-    width: max-content;
-    display: block;
-    padding: 0.7rem 1.7rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 2rem;
-    display: flex;
-    gap: 0.8rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
+.new .frontend {
+    position: relative;
 }
 
-nav a {
-background: transparent;
-padding: 0.9rem;
-border-radius: 50%;
-display: flex;
-font-size: 1.5rem;
+
+.new .frontend ::before{
+    content: "";
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+    top: 0;
+    left: 0;
+    border-left: solid 2px #31525b;
+    border-top: solid 2px #dbb77f;
+    border-top-left-radius: 1rem; 
+    margin: 1rem;   
+}
+.new .backend {
+    position: relative;
+}
+
+.new .backend::before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    aspect-ratio: 1/1;
+    right: 0;
+    bottom: 0;
+    border-right: solid 2px #dbb77f;
+    border-bottom: solid 2px #31525b;
+    border-bottom-right-radius: 1rem;
+    margin: 1rem;
+}
+
+.skillgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    max-width: 400px;
+}
+.skillgrid > div {
+    text-align: center;
+    
+}
+.skillgrid > div > p {
+    margin: 0.5rem 0 1.5rem 0;
+    
+}
+.skillemblem {
+    display: grid;
+    place-content: center;
+    width: 3rem;
+    height: 3rem;
+    max-width: 3rem;
+    max-height: 3rem;
+    border: 1px solid #ededed;
+    border-radius: 1rem;
+    margin: auto;
+}
+.skillemblem svg {
+    fill: #31525b;
+    width: 2rem;
+    height: auto;
 }
 
 
