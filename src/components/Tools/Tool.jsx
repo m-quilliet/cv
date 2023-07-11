@@ -11,10 +11,10 @@ import '../Tools/tool.css'
 
 export const Tool = () => { 
   return (
-    
-    <Container className='new d-flex min-vh-100 flex-column justify-content-center align-items-center'>
-      <Fade right>
-        <Row className='frontend'>
+  
+    <Container id="Homes"className='d-flex min-vh-100 justify-content-center align-items-center '>
+      <Fade direction="right">
+        <Row className='frontend flex-row'>
           <Col xs={6}> 
             <h3 style={{ margin:"2rem" , textAlign:"center"}}>Front-end</h3>
             <div className="skillgrid">
@@ -89,8 +89,8 @@ export const Tool = () => {
         </Row>
       </Fade>
 
-      <Fade left>
-        <Row className='backend' >
+      <Fade direction="left">
+        <Row className='backend flex' >
           <Col xs={6}>
             <h3 style={{ margin:"2rem", textAlign:"center" }}>Cms/Design</h3>
             <div className="skillgrid">
@@ -177,6 +177,7 @@ export const Tool = () => {
         </Row>
       </Fade>
     </Container>
+
   )
 }
 

@@ -35,13 +35,13 @@ const Me = () => {
               <h3>Intérets</h3>
             </Fade>
 
-          <Col className='d-flex flex-direction-row mt-3'>
-            <Fade direction='down'>
+          <Col className='d-flex flex-row mt-3 justify-content-center align-items-center'>
+           
               <img src={communication} height="65" alt="" className="communication"/>
               <img src={creativite} height="65" alt="" className="creativite"/>
               <img src={rouleau} height="65" alt="" className="rouleau"/> 
               <img src={cat} height="65" alt="" className="cat"/>
-            </Fade> 
+            
             </Col>
 
           </Col>
