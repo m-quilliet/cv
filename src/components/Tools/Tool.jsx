@@ -7,7 +7,7 @@ import {SiReact, SiMysql, SiFigma, SiAdobexd, SiCanva, SiWordpress, SiGit, SiApp
 import {FaSymfony,FaTrello} from 'react-icons/fa'
 import {DiScrum, DiVisualstudio} from 'react-icons/di'
 import { Fade } from "react-awesome-reveal"
-// import "./tool.css"
+import '../Tools/tool.css'
 
 export const Tool = () => { 
   return (
