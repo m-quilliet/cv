@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Row, Col, Container,Badge, Button, Modal, Carousel} from 'react-bootstrap'
 // import { Fade } from "react-awesome-reveal"
 // import pins from '../../assets/images/pins.jpeg'
@@ -13,7 +13,7 @@ import poke from '../../assets/images/poke.jpeg'
 // import h4 from '../../assets/images/h4.png'
 // import h2 from '../../assets/images/h2.png'
 // import h3 from '../../assets/images/h3.png'
-// import p1 from '../../assets/images/p1.png'
+import p1 from '../../assets/images/p1.png'
 // import p2 from '../../assets/images/p2.png'
 // import p3 from '../../assets/images/p3.png'
 // import c1 from '../../assets/images/c1.png'
@@ -41,19 +41,19 @@ export const Services = () => {
   // const handleClose2 = () => setShow2(false);
   // const handleShow2 = () => setShow2(true);
 
-  // const [show3, setShow3] = useState(false);
-  // const handleClose3 = () => setShow3(false);
-  // const handleShow3 = () => setShow3(true);
+  const [show3, setShow3] = useState(false);
+  const handleClose3 = () => setShow3(false);
+   const handleShow3 = () => setShow3(true);
 
-  // const [index, setIndex] = useState(0);
+   const [index, setIndex] = useState(0);
 
-  // const handleSelect = (selectedIndex, e) => {
-  //   setIndex(selectedIndex);
-  // };
+   const handleSelect = (selectedIndex, e) => {
+     setIndex(selectedIndex);
+   };
 
   return (
    
-      <Container className='d-flex flex-column justify-content-center align-items-center'>
+      <Container className='demo d-flex flex-column justify-content-center align-items-center'>
     
         <Row className='portfolio__item d-flex flex-row justify-content-center'>    
           <Col> 
@@ -68,7 +68,14 @@ export const Services = () => {
                 <h3>Poke'Mom</h3>
               </Col>
             </Row>
-            {/* <Row>
+  
+
+
+            
+
+
+
+             <Row>
               <Col>
                 <Button className='github' variant="primary" onClick={handleShow3}>Voir +</Button>
                   <Modal size="lg" show={show3} onHide={handleClose3}>
@@ -83,27 +90,30 @@ export const Services = () => {
                               alt="First slide"
                             />
                           </Carousel.Item>
-                          <Carousel.Item>
+                          {/* <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p2}
                               alt="Second slide"
                             />
-                          </Carousel.Item>
-                          {/* <Carousel.Item>
+                          </Carousel.Item> */}
+                           {/* <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p3}
                               alt="Third slide"
-                            /> */}
-                          {/* </Carousel.Item> */}
-                        {/* </Carousel>
+                            /> 
+                           </Carousel.Item>  */}
+                         </Carousel>
                     </Modal.Body>
                   </Modal>
               </Col>
-            </Row> */} 
-          </Col>
+            </Row> 
+                      
+                      
+                      </Col>
         </Row>
+        
      
       
      
