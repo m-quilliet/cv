@@ -1,0 +1,145 @@
+.item img {
+    display: block;
+}
+
+.item .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .fa {
+    font-size: 2rem;
+    height: 4rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.item:hover .overlay .fa {
+    animation: galleryIcon 0.8s ease;
+    -webkit-animation: galleryIcon 0.8s ease;
+}
+
+@keyframes galleryIcon {
+    0% {
+        transform: translate(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.btn-outline-light {
+    background-color: black !important;
+}
+
+.btn-outline-light:hover{
+    background-color: #fff !important;
+    color:black !important;
+}
+
+/* .portfolio__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+} */
+
+.portfolio__item {
+background: rgb(235, 241, 239);
+padding: 1rem;
+border-radius: 8px;
+border: 1px solid transparent;
+transition: var(--transition);
+margin: 1rem;
+/* width:37rem; */
+}
+.portfolio__item:hover {
+background: transparent;
+border-color:#31525b;
+cursor: default;
+}
+
+.portfolio__item-image {
+border-radius: 8px;
+overflow: hidden;
+}
+
+.portfolio__item h3 {
+margin: 1.2rem 0 2rem;
+}
+.portfolio__item-cta {
+display: flex;
+gap: 1rem;
+margin-bottom: 1rem;
+}
+
+.image {
+height: 15rem;
+
+}
+.github {
+    border-color: #31525b !important;
+    color:#31525b !important;
+}
+.github:hover{
+    background-color: #31525b !important;
+    color: #fff !important;
+}
+.btn-primary{
+    background-color: #31525b !important;
+    color:#fff !important
+}
+.demo{
+    background-color: #31525b !important;
+    color: #fff !important;
+}
+.demo:hover{
+    border-color: #31525b !important;
+    background-color: #fff !important;
+    color:#31525b !important;
+}
+
+
+.carousel-control-prev-icon{
+    font-size: large;
+    background-color: #31525b !important;
+    opacity: 0.1 !important;
+
+}
+.carousel-control-next-icon{
+font-size: large;
+background-color: #31525b !important;
+opacity: 0.1 !important;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #31525b !important;
+}
+
+.desc_item{
+    width: 15rem !important;
+}
+
+
+
+

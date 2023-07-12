@@ -5,8 +5,6 @@ import Me from './components/About/Aboutme.jsx';
 import {Services} from './components/Service/Services.jsx';
 import {Tool} from './components/Tools/Tool.jsx';
 
-
-
 function App() {
   return (
     <Router>       
