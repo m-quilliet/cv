@@ -27,11 +27,11 @@ import "../Service/service.css"
 
 
 export const Services = () => { 
-  // const [value, setValue] = useState([1, 3]);
-  // const handleChange = (val) => setValue(val);
-  // const [show, setShow] = useState(false);
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
+const [value, setValue] = useState([1, 3]);
+ const handleChange = (val) => setValue(val);
+ const [show, setShow] = useState(false);
+ const handleClose = () => setShow(false);
+   const handleShow = () => setShow(true);
 
   // const [show1, setShow1] = useState(false);
   // const handleClose1 = () => setShow1(false);
