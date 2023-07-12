@@ -23,7 +23,7 @@ import poke from '../../assets/images/poke.jpeg'
 // import jane from '../../assets/images/jane.jpeg'
 // import clinique from '../../assets/images/clinique.jpeg'
 // import memory from '../../assets/images/memory.jpeg'
-// import "../Custnav/custnavbar.css"
+import "../Service/service.css"
 
 
 export const Services = () => { 
