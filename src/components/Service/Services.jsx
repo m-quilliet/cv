@@ -75,7 +75,7 @@ const [value, setValue] = useState([1, 3]);
 
 
 
-             <Row>
+            {/* <Row>
               <Col>
                 <Button className='github' variant="primary" onClick={handleShow3}>Voir +</Button>
                   <Modal size="lg" show={show3} onHide={handleClose3}>
@@ -90,25 +90,25 @@ const [value, setValue] = useState([1, 3]);
                               alt="First slide"
                             />
                           </Carousel.Item>
-                           <Carousel.Item>
+                          {/* <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p2}
                               alt="Second slide"
                             />
-                          </Carousel.Item> 
-                            <Carousel.Item>
+                          </Carousel.Item> */}
+                           {/* <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p3}
                               alt="Third slide"
                             /> 
-                           </Carousel.Item>  
-                          </Carousel>
+                           </Carousel.Item>  */}
+                         {/* </Carousel>
                     </Modal.Body>
                   </Modal>
               </Col>
-            </Row>  
+            </Row>  */} 
                       
                       
                       </Col>
