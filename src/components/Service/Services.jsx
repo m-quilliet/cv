@@ -14,7 +14,7 @@ import poke from '../../assets/images/poke.jpeg'
 // import h2 from '../../assets/images/h2.png'
 // import h3 from '../../assets/images/h3.png'
 //import p1 from '../../assets/images/p1.png'
-//import p2 from '../../assets/images/p2.png'
+import p2 from '../../assets/images/p2.png'
 // import p3 from '../../assets/images/p3.png'
 // import c1 from '../../assets/images/c1.png'
 // import c2 from '../../assets/images/c2.png'
@@ -75,7 +75,7 @@ const [value, setValue] = useState([1, 3]);
 
 
 
-            {/* <Row>
+             <Row>
               <Col>
                 <Button className='github' variant="primary" onClick={handleShow3}>Voir +</Button>
                   <Modal size="lg" show={show3} onHide={handleClose3}>
@@ -90,25 +90,25 @@ const [value, setValue] = useState([1, 3]);
                               alt="First slide"
                             />
                           </Carousel.Item>
-                          {/* <Carousel.Item>
+                           <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p2}
                               alt="Second slide"
                             />
-                          </Carousel.Item> */}
-                           {/* <Carousel.Item>
+                          </Carousel.Item> 
+                            <Carousel.Item>
                             <img
                               className="d-block w-100"
                               src={p3}
                               alt="Third slide"
                             /> 
-                           </Carousel.Item>  */}
-                         {/* </Carousel>
+                           </Carousel.Item>  
+                          </Carousel>
                     </Modal.Body>
                   </Modal>
               </Col>
-            </Row>  */} 
+            </Row>  
                       
                       
                       </Col>
