@@ -65,7 +65,7 @@ const [value, setValue] = useState([1, 3]);
                 <Badge  bg="secondary">php 7</Badge>
               </Col>
               <Col>
-                <h3>Poke'Mom</h3>
+                <h3>Poke'Mom.</h3>
               </Col>
             </Row>
   
