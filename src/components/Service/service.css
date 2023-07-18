@@ -1,4 +1,4 @@
-.demo {
+/* .demo {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr; 
@@ -70,7 +70,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
 } */
-
+/* 
 .portfolio__item {
 background: rgb(235, 241, 239);
 padding: 1rem;
@@ -79,8 +79,8 @@ border: 1px solid transparent;
 transition: var(--transition);
 margin: 1rem;
 /* width:37rem; */
-}
-.portfolio__item:hover {
+
+/* .portfolio__item:hover {
 background: transparent;
 border-color:#31525b;
 cursor: default;
@@ -145,7 +145,7 @@ opacity: 0.1 !important;
 
 .desc_item{
     width: 15rem !important;
-}
+} */
 
 
 
